@@ -39,12 +39,3 @@ end
 function PowerInfusionHandler:StartCooldownBar()
 	self:StartCandyBar("Power_Infusion_Cooldown")
 end
-
-function contains(list, item)
-  for _, i in ipairs(list) do
-    if item == i then
-      return true
-    end
-  end
-  return false
-end
