@@ -1,4 +1,4 @@
-## SpellPowerMulti
+## Power Infusion Handler (needs a better name...)
 
 This addon plays a sound and displays a bar when you gain Power Infusion. After Power Infusion ends it will display a bar that shows you when Power Infusion is off cooldown so that you know when you can request it again.
 
