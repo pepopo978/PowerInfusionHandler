@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: Power Infusion Handler
+## Notes:
+## Author: Myakaa
+
+libs\AceAddon-2.0\AceAddon-2.0.lua
+libs\AceLibrary\AceLibrary.lua
+libs\AceOO-2.0\AceOO-2.0.lua
+libs\AceEvent-2.0\AceEvent-2.0.lua
+libs\AceConsole-2.0\AceConsole-2.0.lua
+libs\CandyBar-2.0\CandyBar-2.0.lua
+libs\PaintChips-2.0\PaintChips-2.0.lua
+
+PowerInfusionHandler.lua

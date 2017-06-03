@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="Whisper Priest For PI">
+		whisperPriestForPI()
+	</Binding>
+</Bindings>
