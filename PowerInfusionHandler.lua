@@ -1,7 +1,7 @@
 PowerInfusionHandler = AceLibrary("AceAddon-2.0"):new("AceConsole-2.0", "AceEvent-2.0", "CandyBar-2.0")
 
 function PowerInfusionHandler:CHAT_MSG_SPELL_PERIODIC_SELF_BUFFS(msg)
-	if msg == "You gain Power Infusion." then
+	if string.find(msg, "You gain Power Infusion") then
 		PlaySound("LEVELUP")
 		self:StopCandyBar("Power_Infusion_Cooldown")
 		self:StartCandyBar("Power_Infusion")
